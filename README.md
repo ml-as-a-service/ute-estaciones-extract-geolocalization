@@ -7,6 +7,9 @@ Para lo cual utilizaremos los paquetes:
  - **BeautifulSoup**:  librería Python que permite extraer información de contenido en formato HTML o XML 
  - **Pandas**: es una librería de Python especializada en el manejo y análisis de estructuras de datos
 
+Graficamente:
+
+![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales.jpg "Diagrama del proceso.")
 ## Instalacion de dependencias
 Instalamos las librerias dependientes desde requirements.txt
 
