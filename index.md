@@ -10,6 +10,12 @@ Para lo cual utilizaremos los paquetes:
 Gráficamente:
 
 ![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales.jpg "Diagrama del proceso.")
+
+Tutorial en Youtube:
+[![Tutorial Youtube https://youtu.be/KswiP9BXwug ](https://img.youtube.com/vi/KswiP9BXwug/0.jpg)](https://www.youtube.com/watch?v=KswiP9BXwug)
+
+
+
 ## Instalación de dependencias
 Instalamos las librerias dependientes desde requirements.txt
 
