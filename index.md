@@ -9,7 +9,7 @@ Para lo cual utilizaremos los paquetes:
 
 Gráficamente:
 
-![ValidacionProductosSatelitales](https://github.com/ml-as-a-service/ute-estaciones-geoloc/blob/main/assets/img/ValidacionProductosSatelitales.jpg "Diagrama del proceso.")
+![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales.jpg "Diagrama del proceso.")
 ## Instalación de dependencias
 Instalamos las librerias dependientes desde requirements.txt
 
