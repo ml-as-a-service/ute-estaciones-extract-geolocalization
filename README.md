@@ -12,6 +12,7 @@ Gráficamente:
 ![ValidacionProductosSatelitales](assets/img/ValidacionProductosSatelitales.jpg "Diagrama del proceso.")
 
 Tutorial en Youtube:
+
 [![Tutorial Youtube https://youtu.be/KswiP9BXwug ](https://img.youtube.com/vi/KswiP9BXwug/0.jpg)](https://www.youtube.com/watch?v=KswiP9BXwug)
 
 
@@ -27,11 +28,11 @@ pip3 install -r requirements.txt
 Al ejecutar el comando 
 
 ```bash
-python run.py
+python3 run.py
 ```
 Se procederá a:
  - crear la estructura de directorios
  - descargar el archivo fuente en la carpeta tmp/download
- - exportar la información de las estaciones que se encuentran en el archivo a csv, el mismo se guardara en la carpeta data/
+ - exportar la información de las estaciones que se encuentran en el archivo a csv, el mismo se guardara en **./data/MapaEstHid.csv**
 
 
