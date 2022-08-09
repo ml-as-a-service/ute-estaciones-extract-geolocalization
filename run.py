@@ -10,10 +10,10 @@ file_path = fx.download(url)
 
 # -----------------------------------------------------------------------------
 # Obtenemos las estaciones en una lista utilizando BeautifulSoup
-estaciones = fx.getEstaciones(file_path)
+estaciones = fx.get_estaciones(file_path)
 
 # -----------------------------------------------------------------------------
 # Exportamos las estaciones a CSV utilizando pandas
 file_name_csv = "MapaEstHid.csv"
 file_path_csv = fx.dir_data+file_name_csv
-fx.exportToCsv(estaciones, file_path_csv)
+fx.export_to_csv(estaciones, file_path_csv)

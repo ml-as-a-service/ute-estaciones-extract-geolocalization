@@ -9,9 +9,9 @@ import pandas as pd
 def init():
     global dir_root, dir_data, dir_tmp, dir_report, dir_download
     dir_root = os.path.abspath(os.getcwd())
-    createStructure()
+    create_structure()
 
-def createStructure():
+def create_structure():
     globals()["dir_data"] = globals()["dir_root"]+'/data/'
     os.makedirs(globals()["dir_data"], exist_ok = True)
 
@@ -32,7 +32,7 @@ def file_get_contents(filename, mode="r"):
         return f_in.read()      
 
 # -----------------------------------------------------------------------------
-def exportToCsv(data, file_path):
+def export_to_csv(data, file_path):
     ds = pd.DataFrame(data)
     ds.to_csv(file_path, index = False, header = None)
 
@@ -45,7 +45,7 @@ def download(url):
     return file_path
 
 # -----------------------------------------------------------------------------
-def getEstaciones(file_path):
+def get_estaciones(file_path):
     html = file_get_contents(file_path)
 
     # Scrappig
