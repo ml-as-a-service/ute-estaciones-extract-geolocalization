@@ -3,3 +3,5 @@ requests==2.25.1
 pandas==1.2.4
 srtm-py==0.3.7
 selenium==4.4.0
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2
