@@ -36,10 +36,10 @@ Se procederá a:
  - exportar la información de las estaciones que se encuentran en el archivo a csv, el mismo se guardara en **./data/MapaEstHid.csv**
 
 
-## Distancia de 
+## Distancia de Levenshtein
 Al ejecutar el comando el comando 
 
 ```bash
 python3 merge_lat_lon.py
 ```
-Se realizara el merge de los dataset en base a la distancia de Levenshtein-
+Se realizara el merge de los dataset en base a la distancia de Levenshtein
